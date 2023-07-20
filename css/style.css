@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#D9D9D9 ;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+header{
+    background-color: #0D0D0D;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.img-header{
+    width: 40px;
+    padding:5px 0px 5px 10px;
+
+}
+ul{
+    display: flex;
+    justify-content: end;  
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: #D9D9D9;
+    padding: 10px 30px 0px 0px;
+
+}
+li:hover{
+    color: #35F22E;
+    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+    
+}
+.store{
+    color:#24A61F ;
+}
+.container{
+display: flex;
+justify-content:center;
+align-items: center;
+max-width: 1400px;
+
+
+}
+.box{
+   display: flex;
+   cursor: pointer;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    background-color:#0D0D0D ;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+    width: 230px;
+    height: 350px;
+    margin-bottom: 70px;
+    box-shadow:   6px 9px 37px 0px rgba(0,0,0,0.64);
+   
+}
+.box:hover{
+    background-color:#16f2758a ;
+    transition: 0.5s;
+}
+
+.img-tenis-1{
+    border-radius: 10px;
+    height: 220px;
+    width:170px ;
+}
+.img-tenis-2{
+    border-radius: 10px;
+    height: 220px;
+    width: 170px;
+}
+.img-tenis-3{
+    border-radius: 10px;
+    height: 220px;
+    width: 170px;
+}
+
+h2{
+    color: #D9D9D9;
+    text-transform: uppercase;
+}
+p{
+    color: #24A61F;
+}
+
+.box-1{
+
+}
+footer{
+    
+    background-color: #0D0D0D;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+   
+}
+.link-name{
+    text-decoration: none;
+    color: #D9D9D9;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.link-name:hover{
+color: #35F22E;
+}
+
+
+@media (max-width:700px){ 
+    .container{
+       
+        flex-direction: column;
+    }
+    .box{
+        width: 330px;
+        height: 380px;
+
+    }
+    .img-tenis{
+        margin-bottom:20px 0px  40px 0px;
+        width:250px;
+        height: 230px;
+    }
+
+  
+}
